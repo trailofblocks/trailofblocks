@@ -2,6 +2,29 @@
 
 Each repository runs with one command, has its tests in CI, and says in its README what was verified and what wasn't.
 
+<!-- portfolio-demo-index -->
+## Demo videos
+
+See when to use each project and follow a short, captioned walkthrough. The project READMEs also include narrated videos.
+
+- [Voyar Flight Search](#voyar-flight-search)
+- [hometurf](https://github.com/trailofblocks/hometurf#watch-the-demo)
+- [Online PostgreSQL Migration Kit](https://github.com/trailofblocks/postgres-migration-kit#watch-the-demo)
+- [Dispute Evidence Desk](https://github.com/trailofblocks/dispute-evidence-desk#watch-the-demo)
+- [Treasury Change Control](https://github.com/trailofblocks/treasury-change-control#watch-the-demo)
+- [AI Release Gate](https://github.com/trailofblocks/ai-release-gate#watch-the-demo)
+- [MCP Airlock](https://github.com/trailofblocks/mcp-airlock#watch-the-demo)
+- [Reorg-Safe Blockchain Indexer](https://github.com/trailofblocks/reorg-safe-indexer#watch-the-demo)
+- [Allowance](https://github.com/trailofblocks/allowance#watch-the-demo)
+- [Scope Search](https://github.com/trailofblocks/permission-aware-search#watch-the-demo)
+- [Proof-of-Exploit](https://github.com/trailofblocks/proof-of-exploit#watch-the-demo)
+- [Payment Risk Feature Store](https://github.com/trailofblocks/payment-risk-feature-store#watch-the-demo)
+- [Canary Release Lab](https://github.com/trailofblocks/canary-release-lab#watch-the-demo)
+- [Payment Reconciliation Workbench](https://github.com/trailofblocks/payment-reconciliation-workbench#watch-the-demo)
+- [Incident Replay Lab](https://github.com/trailofblocks/incident-replay-lab#watch-the-demo)
+- [Strat Deck](https://github.com/trailofblocks/strat-deck-demo#watch-the-demo)
+<!-- /portfolio-demo-index -->
+
 ## AI agents: testing and security
 
 **[agent-crashtest](https://github.com/trailofblocks/agent-crashtest)** is chaos testing for an agent's tool calls. It injects lost replies, duplicate deliveries, crashes mid-step, garbled results, slow tools, and rate limits between an agent and its MCP tools. Then it checks a ledger of what really happened, rather than the agent's own account. In 117 single-fault runs, a typical framework retry policy repeated a side effect in 78. An agent that uses idempotency keys and an outbox repeated none.
@@ -55,3 +78,14 @@ These five are tested with scripted agents, which run without an API key. No ben
 - **Limits are stated.** Each README says what was verified, on which platforms, and what wasn't.
 
 **Stack:** TypeScript, Python, Go, Solidity, Node.js, FastAPI, React, PostgreSQL, Kafka, Kubernetes, Foundry, MCP
+
+<!-- portfolio-demo-videos -->
+## Voyar Flight Search
+
+Voyar compares flights across flexible dates and airports, then shows which options save money or travel time. The walkthrough has on-screen captions.
+
+![Captioned Voyar Flight Search walkthrough](docs/demo/voyar/how-to.gif)
+
+[Download the narrated walkthrough](docs/demo/voyar/how-to.mp4?raw=true) · [Download the narrated overview](docs/demo/voyar/overview.mp4?raw=true)
+
+<!-- /portfolio-demo-videos -->
