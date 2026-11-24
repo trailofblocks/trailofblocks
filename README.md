@@ -39,7 +39,7 @@ A Claude Code hook applies the same checks to Claude Code's built-in tools. In i
 
 **[proof-of-exploit](https://github.com/trailofblocks/proof-of-exploit)** is an AI auditor for Solidity that only reports bugs it can prove. Each finding comes with an exploit that an independent verifier has replayed on a fresh Anvil chain. Each patch is checked against that exploit and the project's existing tests. On its example protocol, the verifier proves the reference exploits for all 3 planted bugs and refuses to prove the decoy.
 
-**[allowance](https://github.com/trailofblocks/allowance)** puts an AI agent's payment rules in an ERC-7579 smart-account module, so the agent can't change them. It comes with a TypeScript SDK, an MCP server, x402 support, and a red-team lab of prompt-injection and stolen-key scenarios.
+**[allowance](https://github.com/trailofblocks/allowance)** puts an AI agent's payment rules in an ERC-7579 smart-account module that the account owner sets, not the agent. It is an unaudited research project. It comes with a TypeScript SDK, an MCP server, x402 support, and a red-team lab of prompt-injection and stolen-key scenarios.
 
 **[hometurf](https://github.com/trailofblocks/hometurf)** builds a private SWE-bench from a repository's own git history, and ranks coding-agent setups by solve rate with confidence intervals. On sqlparse, it mined 32 tasks. A reference agent that applies the real fix solves 32 of them, and an agent that changes nothing solves none.
 
